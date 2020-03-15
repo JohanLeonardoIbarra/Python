@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="{{ url_for('static', filename='css/estilos.css') }}" rel="stylesheet">
+    </head>
+    <body>
+    <h1>Login</h1>
+    <form action="/loginData" method="POST">
+        <input type="text" name="Nombre" placeholder="Nombre"><b>
+        <input type="text" name="Clave" placeholder="Clave"><b>
+        <button type="submit">Entrar</button>
+    </form>
+    </body>
+</html>

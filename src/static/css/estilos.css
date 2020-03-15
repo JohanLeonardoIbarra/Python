@@ -1,0 +1,22 @@
+h1
+{
+    font-family: sans-serif;    
+    color: blue;
+    text-align: center;
+    font-size: 72px;
+    border-style: solid;
+    border-style: solid;
+    border-radius: 1%;
+    background-color: #fff;
+}
+
+.btn
+{
+    background-color: #fff;
+    border-style: solid;
+    border-radius: 1%;
+    border-color: #000;
+    font-size: 25px;
+    color: blue;
+    margin-left: 10%;
+}
